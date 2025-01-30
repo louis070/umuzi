@@ -1,0 +1,41 @@
+.sidemenu {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+.sidemenu.dark {
+  background-color: #1e293b;
+  color: #ffffff;
+}
+.sidemenu.light {
+  background-color: #ffffff;
+  color: #1e293b;
+}
+.sidemenu.minimized {
+  width: 80px;
+}
+.logo{
+    width: 60%;
+    padding: 1rem;
+}
+.logo1{
+    width: 80%;
+    padding: 1rem;
+}
+.sidemenu hr{
+    width: 80%;
+}
+.menu{
+    padding: 2rem;
+}
+.menu-item{
+    margin-top: 10%;
+    cursor: pointer;
+}
+.menu-item:hover{
+    margin-top: 10%;
+    cursor: pointer;
+    background-color: rgb(2, 92, 2);
+}
