@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
-
+import axios from "../axiosConfig";
 const passwordRequirements = [
   { regex: /.{8,}/, label: "At least 8 characters" },
   { regex: /[A-Z]/, label: "An uppercase letter" },
