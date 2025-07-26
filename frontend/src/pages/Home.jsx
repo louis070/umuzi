@@ -50,6 +50,9 @@ const Home = () => (
       <Link to="/book-session" style={homeBtnStyle}>
         Book Session
       </Link>
+      <Link to="/register-hospital" style={homeBtnStyle}>
+        Register a Hospital
+      </Link>
     </div>
   </div>
 );

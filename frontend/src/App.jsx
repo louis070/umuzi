@@ -15,6 +15,8 @@ import Profile from "./pages/Profile";
 import SessionBookingForm from "./components/SessionBookingForm";
 import Index from "./components";
 import ProtectedRoute from "./components/ProtectedRoute";
+import RegisterHospital from "./pages/RegisterHospital";
+import HospitalAdminDashboard from "./pages/HospitalAdminDashboard";
 
 function Layout({ children }) {
   const location = useLocation();
@@ -140,6 +142,8 @@ function App() {
               <Index />
             </ProtectedRoute>
           } />
+          <Route path="/register-hospital" element={<RegisterHospital />} />
+          <Route path="/hospital-admin-dashboard" element={<HospitalAdminDashboard />} />
         </Routes>
       </Layout>
     </Router>
